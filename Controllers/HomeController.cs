@@ -15,7 +15,7 @@ namespace DR874115_MIS4200.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "MY MIS4200 description.";
+            ViewBag.Message = "About Devin Ruff";
 
             return View();
         }
