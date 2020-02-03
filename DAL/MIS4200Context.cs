@@ -15,5 +15,9 @@ namespace DR874115_MIS4200.DAL
         }
         public DbSet<Orders> Orders { get; set; }
         public DbSet<customer> Customers { get; set; }
+        public DbSet<Products> products { get; set; }
+        public DbSet<OrderDetail> orderDetails { get; set; }
+
+        public System.Data.Entity.DbSet<DR874115_MIS4200.Models.Products> Products { get; set; }
     }
 }
