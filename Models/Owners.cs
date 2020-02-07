@@ -22,7 +22,7 @@ namespace DR874115_MIS4200.Models
         public string FullName { 
             get
             {
-                return FirstName + ", " + LastName;
+                return LastName + ", " + FirstName;
             }
                 
          }
