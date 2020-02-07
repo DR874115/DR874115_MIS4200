@@ -19,6 +19,10 @@ namespace DR874115_MIS4200.DAL
         public DbSet<customer> Customers { get; set; }
         public DbSet<Products> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        //SD 2 
+        public DbSet<Pets> Pets { get; set; }
+        public DbSet<Owners> Owners { get; set; }
+        public DbSet<PetDetails> PetDetails { get; set; }
 
         // public System.Data.Entity.DbSet<DR874115_MIS4200.Models.Products> Products { get; set; }
 
