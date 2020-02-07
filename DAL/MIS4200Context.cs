@@ -15,10 +15,10 @@ namespace DR874115_MIS4200.DAL
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<MIS4200Context, DR874115_MIS4200.Migrations.MISContext.Configuration>("DefaultConnection"));
             // this method is a constructor and is called
         }
-        public DbSet<Orders> Orders { get; set; }
-        public DbSet<customer> Customers { get; set; }
-        public DbSet<Products> Products { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
+        //public DbSet<Orders> Orders { get; set; }
+       // public DbSet<customer> Customers { get; set; }
+        //public DbSet<Products> Products { get; set; }
+        //public DbSet<OrderDetail> OrderDetails { get; set; }
         //SD 2 
         public DbSet<Pets> Pets { get; set; }
         public DbSet<Owners> Owners { get; set; }
